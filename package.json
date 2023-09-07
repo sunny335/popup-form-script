@@ -1,0 +1,22 @@
+{
+  "name": "displaypopupform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "popup-form.js",
+  "scripts": {
+    "test": "jest"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "setupFilesAfterEnv": ["<rootDir>/jest.setup.js"]
+  }
+,  
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "jest-environment-jsdom": "^29.6.4",
+    "jsdom": "^22.1.0"
+  }
+}
